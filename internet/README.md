@@ -32,3 +32,11 @@
  #### OSI (Open System Interconnection Model)
 
  ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/osi.png)
+
+<br/>
+
+ 通常人們認為OSI模型的最上面三層（應用層、表示層和會話層）在TCP/IP組中是一個應用層。
+ > ip is also based on the network layer as a black box design.
+ > So it is also reasonable as a layer.
+
+ ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/osi2.png)
