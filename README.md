@@ -1,4 +1,5 @@
 # PURPOSE
+Starting from scratch, follow the developer - roadmap, step by step, stabilize the foundation, record my own learning, I can return to revisit when you forget.
 <br/>
 
 ### REFERENCE
