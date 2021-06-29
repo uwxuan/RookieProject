@@ -14,29 +14,3 @@
 <br/>
 
 
-
-<br/>
-<br/>
-
-### LEARN<br/>
-
-<br/>
-
- - [✅] HTML<br/>
- ![imag](https://github.com/uwxuan/rookie-project/blob/main/frontend.png)
-
-<br/>
-
- - [&nbsp; ] CSS<br/>
-
-<br/>
-
- - [&nbsp; ] JAVASCRIPT<br/>
-
-<br/>
-
- - [&nbsp; ] MONGODB<br/>
-
-
-
-<br/>
