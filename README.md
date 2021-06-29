@@ -1,13 +1,13 @@
-# PURPOSE
-<font size = 10>Starting from scratch, follow the developer - roadmap, step by step, stabilize the foundation, record my own learning, I can return to revisit when you forget.</font >
+# 1. PURPOSE
+<font size = 18>Starting from scratch, follow the developer - roadmap, step by step, stabilize the foundation, record my own learning, I can return to revisit when you forget.</font >
 <br/>
 
-### REFERENCE
+### 1.0.1. REFERENCE
 
 <br/>
 
  1. [developer-roadmap](https://github.com/goodjack/developer-roadmap-chinese) <br/>
-
+font
     - [frontend-roadmap](https://raw.githubusercontent.com/goodjack/developer-roadmap-chinese/master/chinese-version/img/frontend.png)
 
     - [frontend-backend](https://raw.githubusercontent.com/goodjack/developer-roadmap-chinese/master/chinese-version/img/backend.png)
