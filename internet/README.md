@@ -30,3 +30,5 @@
  > 將資料應該如何封裝、定址、傳輸、路由以及在目的地如何接收，都加以標準化。<br/>
 
  #### OSI (Open System Interconnection Model)
+
+ ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/osi.png)
