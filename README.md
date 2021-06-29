@@ -23,6 +23,7 @@
 <br/>
 
  - [✅] HTML<br/>
+ ![imag](https://github.com/uwxuan/rookie-project/blob/main/frontend.png)
 
 <br/>
 
