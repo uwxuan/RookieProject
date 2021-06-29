@@ -1,6 +1,6 @@
 # 1. PURPOSE
 
-<font color="#dd0000"> Starting from scratch, follow the developer - roadmap, step by step, stabilize the foundation, record my own learning, I can return to revisit when you forget.</font>
+<font size="10"> Starting from scratch, follow the developer - roadmap, step by step, stabilize the foundation, record my own learning, I can return to revisit when you forget.</font>
 
 
 <br/>
