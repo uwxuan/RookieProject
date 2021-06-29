@@ -13,11 +13,6 @@
 
 <br/>
 
- 2. [developer-roadmap](https://github.com/goodjack/developer-roadmap-chinese) <br/>
-
-<br/>
-
- 3. [developer-roadmap](https://github.com/goodjack/developer-roadmap-chinese) <br/>
 
 
 <br/>
