@@ -6,4 +6,4 @@
 
 <br/>
 
- [imag](1.internet.png)
+ [imag](https://github.com/uwxuan/rookie-project/blob/main/internet/1.internet.png)
