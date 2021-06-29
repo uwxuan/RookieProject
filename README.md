@@ -14,7 +14,7 @@
 
    + [***English***](https://github.com/kamranahmedse/developer-roadmap) <br/>
 
-        + [LOOK](https://github.com/kamranahmedse/developer-roadmap-chinese/tree/master/img) <br/>
+        + [<font color=red> LOOK </font>](https://github.com/kamranahmedse/developer-roadmap-chinese/tree/master/img) <br/>
 
 <br/>
 
