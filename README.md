@@ -1,8 +1,8 @@
 # 1. PURPOSE
 
-<font color = red>
+<font color = red>hello,world</font>
+
  Starting from scratch, follow the developer - roadmap, step by step, stabilize the foundation, record my own learning, I can return to revisit when you forget.
- </font>
 
 <br/>
 
