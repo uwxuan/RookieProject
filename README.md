@@ -1,5 +1,7 @@
 # 1. PURPOSE
-<font size = 18>Starting from scratch, follow the developer - roadmap, step by step, stabilize the foundation, record my own learning, I can return to revisit when you forget.</font >
+<font size = 18>
+ Starting from scratch, follow the developer - roadmap, step by step, stabilize the foundation, record my own learning, I can return to revisit when you forget.
+</font >
 <br/>
 
 ### 1.0.1. REFERENCE
