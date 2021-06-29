@@ -15,4 +15,18 @@
 
  > TCP protocol: Transport 傳輸層.                                      // 顧名思義，解決如何在網路中傳輸的問題。
 
- > ip protocol: Internet 網路層.                                        // 同上。
+ > ip protocol: Internet 網路層.                                        // 網路層面，功能同上。
+
+ > TCP/IP 稱為網際網路協議套組，這兩大家族組成網路基礎架構。
+
+<br/>
+
+ ### TCP/IP  
+
+   TCP/IP Protocol Stack: <br/>
+
+ > TCP/IP Provide point-to-point link mechanism（機制）.<br/>
+
+ > 將資料應該如何封裝、定址、傳輸、路由以及在目的地如何接收，都加以標準化。<br/>
+
+ #### OSI (Open System Interconnection Model)
