@@ -53,7 +53,12 @@
     > Example:<br/> A Dialing the phone to B, B should wait for B to hear, confirm that it is A to communicate.
 
  2. 基於字節流:<br/>
-    TCP交換數據格式是字節(byte)組成的有序字節流。r
+    TCP交換數據格式是字節(byte)組成的有序字節流。<br/>
+
+    用上面的故事做比喻:<br/>
+    > 買家和賣家互相連結後 => TCP/ip 三次握手<br/>
+    > <p>賣家打包           => TCP 將無特殊格式的數據打包<br/></p>
+    > 賣家寄出           =>
 
  3. 可靠性:<br/>
 
