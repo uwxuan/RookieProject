@@ -9,7 +9,7 @@
  ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/1.internet.png)
  ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/2.internet.png)
 
- ### FIRST OF ALL
+# FIRST OF ALL
 
  > http protocol: Application 應用層 HTTP protocol is based on TCP.     //  應用層面，主要解決如何封裝資料。
 
@@ -40,3 +40,12 @@
  > So it is also reasonable as a layer.
 
  ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/osi2.png)
+
+ <br>
+
+
+ ## TCP
+
+ ## HTTP(短連線)
+
+ ## SOCKET(長連線)
