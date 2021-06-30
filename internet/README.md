@@ -23,7 +23,7 @@
 
  ### TCP/IP  
 
-   TCP/IP Protocol Stack: <br/>
+   TCP/IP Protocol Suite: <br/>
 
  > TCP/IP Provide point-to-point link mechanism（機制）.<br/>
 
@@ -44,7 +44,17 @@
  <br>
 
 
- ## TCP
+ ## TCP (Transmission Control Protoco)
+
+ 1. 面向連接: <br/>
+
+    面向連接代表雙方在交換數據時必須先建立連結。
+    > 舉例:<br/>A撥打電話給B，A要等B聽到後接起，確認是A後才能溝通。
+    
+
+ 2. 基於字節流:<br/>
+
+ 3. 可靠性:<br/>
 
  ## HTTP
 
