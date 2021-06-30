@@ -50,7 +50,7 @@
 
     面向連接代表雙方在交換數據時必須先建立連結。
     > 舉例:<br/>A撥打電話給B，A要等B聽到後接起，確認是A後才能溝通。
-    
+    > Example:<br/> A Dialing the phone to B, B should wait for B to hear, confirm that it is A to communicate.
 
  2. 基於字節流:<br/>
 
