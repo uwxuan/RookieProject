@@ -26,7 +26,7 @@
 
    TCP/IP Protocol Suite: <br/>
 
- > TCP/IP Provide point-to-point link mechanism（機制）.<br/>
+ > 當多個協定同時工作時，類似計算機的堆棧，所以又稱(TCP/IP Protocol Stack)。 <br/>
 
  > 將資料應該如何封裝、定址、傳輸、路由以及在目的地如何接收，都加以標準化。<br/>
 
@@ -45,7 +45,7 @@
  <br>
 
 
- ## TCP (Transmission Control Protoco)
+ ## TCP (Transmission Control Protocol)
 
  1. 面向連接: <br/>
 
@@ -62,21 +62,36 @@
     ### 📖 故事說明(Description)
 
 
-     賣家買家互相通電 &nbsp; => TCP/ip &ensp; 三次握手，建立連接(connection establishment)。<br/>
+     賣家買家互相通電 &nbsp; => TCP/IP &ensp; 三次握手，建立連接(connection establishment)。<br/>
 
-     賣家打包 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => TCP &ensp; 將無特殊格式的數據打包成 __報文段(segment)__ ，<br/>
+     賣家打包 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => 內核按照TCP protocol &ensp; 將無特殊格式的數據打包成 __報文段(segment)__ ，<br/>
 
-     賣家寄出 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => IP(網路層) &ensp; 將數據報文封包成 __數據報(IP Datagram)__ ，封包交換網路中最小的單位。 <br/>
+     賣家寄出 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => 內核按照 &ensp; IP protocol &ensp; 將數據報文封包成 __數據報(IP Datagram)__ 。 <br/>
 
      物流中心 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => __數據報(IP Datagram)__ &ensp; 經過路由器網路傳輸到伺服器。  <br/>
 
      買家收到 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => 內核從 __數據報(IP Datagram)__ ，拆分出TCP的 __報文段(segment)__ 。 <br/> 
 
-     買家拆包 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => 內核從 __報文段(segment)__ 還原成字節流(byte stream) ，再把數據(Data)給到應用層。
+     買家拆包 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => 內核從 __報文段(segment)__ 還原成字節流(byte stream) ，再把數據(Data)給到應用層。 <br/>
 
-     
+    > __數據報(IP Datagram)__: &ensp; 為封包網絡中最小的單位。     
 
     ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/osi3.png)
+
+    __報文段(segment)__ 的結構: 
+
+    ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/tcp-construct.png)
+     <br/>
+
+    TCP首部結構:
+
+      - 端口號(Source Port and Destination Port): &ensp; 每個TCP報文段都有端口號，用於找發送端和接收端應用端進程。<br/>
+
+      - 序號(Sequence Number): &ensp; 將失序的數據從新排列，它位於TCP設置為數據部份的第一個字節的編號。<br/>
+
+      - 確認序號(Acknowledgment Number): &ensp; 接收方確認收到後所回覆的，用於核對接收的數據，下一次數據從那開始發。if &ensp; (ACK &ensp; = &ensp; 1)&ensp; return &ensp; ACK+1;
+     
+
 
  3. 可靠性:<br/>
 
