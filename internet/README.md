@@ -55,11 +55,11 @@
 
  2. 基於字節流: <br/>
 
-    TCP交換數據格式是字節(byte)組成的有序字節流。<br/>
+    TCP交換數據格式是字節(byte)組成的有序字節流。<br/><br/>
 
     <p id = Description>用上面的故事做比喻:<br/></p>
 
-    #### 📖 故事說明(Description)
+    ### 📖 故事說明(Description)
 
 
      賣家買家互相通電 &nbsp; => TCP/ip &ensp; 三次握手，建立連接(connection establishment)。<br/>
@@ -68,9 +68,13 @@
 
      賣家寄出 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => IP(網路層) &ensp; 將數據報文封包成 __數據報(IP Datagram)__ ，封包交換網路中最小的單位。 <br/>
 
-     物流中心 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => 經過路由器網路傳輸到伺服器，接著IP從 __數據報(IP Datagram)__ ，拆分出TCP的 _報文段(segment)_ ，<br/>
+     物流中心 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => __數據報(IP Datagram)__ &ensp; 經過路由器網路傳輸到伺服器。  <br/>
 
-     再還原成字節流給應用層。
+     買家收到 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => 內核從 __數據報(IP Datagram)__ ，拆分出TCP的 __報文段(segment)__ 。 <br/> 
+
+     買家拆包 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => 內核從 __報文段(segment)__ 還原成字節流(byte stream) ，再把數據(Data)給到應用層。
+
+     
 
     ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/osi3.png)
 
