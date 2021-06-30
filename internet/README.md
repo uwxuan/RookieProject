@@ -63,7 +63,7 @@
 
     ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/osi3.png)
 
-    > 物流中心 &ensp; &ensp; &ensp; &ensp; => 經過路由器網路傳輸到伺服器，接著IP從 **數據報(IP Datagram) ** ，拆分出TCP的 **報文段(segment)** ，再還原成字節流給應用層。
+    > 物流中心 &ensp; &ensp; &ensp; &ensp; => 經過路由器網路傳輸到伺服器，接著IP從 _數據報(IP Datagram)_ ，拆分出TCP的 _報文段(segment)_ ，再還原成字節流給應用層。
 
  3. 可靠性:<br/>
 
