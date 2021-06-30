@@ -46,6 +46,6 @@
 
  ## TCP
 
- ## HTTP(短連線)
+ ## HTTP
 
- ## SOCKET(長連線)
+ ## SOCKET
