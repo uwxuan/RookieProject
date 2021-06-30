@@ -8,7 +8,7 @@
 
  ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/1.internet.png)
  ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/2.internet.png)
-  - [Description](Description)
+  - [Description](#Description)
 
 # FIRST OF ALL
 
@@ -58,7 +58,7 @@
 
     <p id = Description>用上面的故事做比喻:<br/></p>
 
-     賣家買家互相通電 => TCP/ip &ensp; 三次握手，建立連接(connection establishment)。<br/>
+     賣家買家互相通電 &nbsp; => TCP/ip &ensp; 三次握手，建立連接(connection establishment)。<br/>
 
      賣家打包 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => TCP &ensp; 將無特殊格式的數據打包成 __報文段(segment)__ ，<br/>
 
