@@ -57,13 +57,13 @@
     TCP交換數據格式是字節(byte)組成的有序字節流。<br/>
 
     <p id = Description>用上面的故事做比喻:<br/></p>
-    > 賣家買家互相通電 => TCP/ip 三次握手，建立連接(connection establishment)。<br/>
-    > 賣家打包 &ensp; &ensp; &ensp; &ensp; => TCP &ensp; 將無特殊格式的數據打包成***報文段(segment)*** ，<br/>
-    > 賣家寄出 &ensp; &ensp; &ensp; &ensp; => IP(網路層) &ensp; 將數據報文封包成***數據報(IP Datagram)***，封包交換網路中最小的單位。 <br/>
+    > 賣家買家互相通電 => TCP/ip &ensp; 三次握手，建立連接(connection establishment)。<br/>
+    > 賣家打包 &ensp; &ensp; &ensp; &ensp; => TCP &ensp; 將無特殊格式的數據打包成 ***報文段(segment)*** ，<br/>
+    > 賣家寄出 &ensp; &ensp; &ensp; &ensp; => IP(網路層) &ensp; 將數據報文封包成 ***數據報(IP Datagram)*** ，封包交換網路中最小的單位。 <br/>
 
     ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/osi3.png)
 
-    > 物流中心 &ensp; &ensp; &ensp; &ensp; => 經過路由器網路傳輸到伺服器，接著IP從***數據報(IP Datagram)***，拆分出TCP***報文段(segment)***，再還原成字節流給應用層。
+    > 物流中心 &ensp; &ensp; &ensp; &ensp; => 經過路由器網路傳輸到伺服器，接著IP從 ***數據報(IP Datagram) *** ，拆分出TCP的 ***報文段(segment)*** ，再還原成字節流給應用層。
 
  3. 可靠性:<br/>
 
