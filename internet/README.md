@@ -57,7 +57,7 @@
 
     用上面的故事做比喻:<br/>
     > 買家和賣家互相連結後 => TCP/ip 三次握手<br/>
-    > 賣家打包 &ensp;&ensp;&ensp;&ensp;&ensp;=> TCP 將無特殊格式的數據打包<br/>
+    > 賣家打包 &ensp; &ensp; &ensp; &ensp; &ensp;=> TCP 將無特殊格式的數據打包<br/>
     > 賣家寄出 &ensp;&ensp;&ensp;&ensp;&ensp;=> 
 
  3. 可靠性:<br/>
