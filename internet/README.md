@@ -8,7 +8,7 @@
 
  ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/1.internet.png)
  ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/2.internet.png)
-  - [跳到說明(Description)](#Description)
+  - [👉跳到說明(Description)](#Description)
 
 # FIRST OF ALL
 
@@ -57,9 +57,10 @@
 
     TCP交換數據格式是字節(byte)組成的有序字節流。<br/>
 
-    #### 故事說明(Description)
-
     <p id = Description>用上面的故事做比喻:<br/></p>
+
+    #### 📖 故事說明(Description)
+
 
      賣家買家互相通電 &nbsp; => TCP/ip &ensp; 三次握手，建立連接(connection establishment)。<br/>
 
