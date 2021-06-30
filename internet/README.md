@@ -60,11 +60,11 @@
 
      賣家買家互相通電 => TCP/ip &ensp; 三次握手，建立連接(connection establishment)。<br/>
 
-     賣家打包 &ensp; &ensp; &ensp; &ensp; &nbsp; => TCP &ensp; 將無特殊格式的數據打包成 _報文段(segment)_ ，<br/>
+     賣家打包 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => TCP &ensp; 將無特殊格式的數據打包成 __報文段(segment)__ ，<br/>
 
-     賣家寄出 &ensp; &ensp; &ensp; &ensp; &nbsp; => IP(網路層) &ensp; 將數據報文封包成 _數據報(IP Datagram)_ ，封包交換網路中最小的單位。 <br/>
+     賣家寄出 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => IP(網路層) &ensp; 將數據報文封包成 __數據報(IP Datagram)__ ，封包交換網路中最小的單位。 <br/>
 
-     物流中心 &ensp; &ensp; &ensp; &ensp; &nbsp; => 經過路由器網路傳輸到伺服器，接著IP從 _數據報(IP Datagram)_ ，拆分出TCP的 _報文段(segment)_ ，<br/>
+     物流中心 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => 經過路由器網路傳輸到伺服器，接著IP從 __數據報(IP Datagram)__ ，拆分出TCP的 _報文段(segment)_ ，<br/>
 
      再還原成字節流給應用層。
 
