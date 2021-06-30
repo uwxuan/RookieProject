@@ -53,10 +53,11 @@
     > 舉例:<br/>A撥打電話給B，A要等B聽到後接起，確認是A後才能溝通。
     > Example:<br/> A Dialing the phone to B, B should wait for B to hear, confirm that it is A to communicate.
 
- 2. 基於字節流:<br/>
+ 2. 基於字節流: <br/>
+
     TCP交換數據格式是字節(byte)組成的有序字節流。<br/>
 
-    ####故事說明(Description)
+    #### 故事說明(Description)
 
     <p id = Description>用上面的故事做比喻:<br/></p>
 
