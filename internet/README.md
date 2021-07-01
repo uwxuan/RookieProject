@@ -64,7 +64,7 @@
 
      賣家買家互相通電 &nbsp; => TCP/IP &ensp; 三次握手，建立連接(connection establishment)。<br/>
 
-     賣家打包 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => 內核按照TCP protocol &ensp; 將無特殊格式的數據打包成 __報文段(segment)__ ，<br/>
+     賣家打包 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => 內核按照 &ensp; TCP protocol &ensp; 將無特殊格式的數據打包成 __報文段(segment)__ ，<br/>
 
      賣家寄出 &nbsp; &ensp; &ensp; &ensp; &ensp; &nbsp; => 內核按照 &ensp; IP protocol &ensp; 將數據報文封包成 __數據報(IP Datagram)__ 。 <br/>
 
@@ -99,11 +99,24 @@
 
          - PSH (Push Bit): &ensp; 接收方盡快把報文段交給應用層。
 
-         - RST (Reset Bit): &ensp; 發送端遇到問題，想要重建連接
+         - RST (Reset Bit): &ensp; 發送端遇到問題，想要重建連接。
 
          - SYN (SynchronizerBit): &ensp; 同步序號，用于發起一个連接。
 
          - FIN (Finish Bit): &ensp; 發送端請求斷開連接。
+
+     - 窗口大小(Window): &ensp; 控制流量，起始於確認序號指明的值，值是接收端期望接收的字節。單位為字節，所以數組範圍（0~65565)。
+
+     - 檢驗和(Checksum): &ensp; 用於驗證數據完整性，覆蓋整個首部和數據部份。發送端依算法算出檢驗和，接收端進行計算並檢驗。
+
+     - 緊急指針(Urgent Pointer): &ensp; 當控制位URG=1時生效，得知有緊急數據要發送時，含有未發送字節到緊急字節之間數據的報文都會將URG位置為1。<br/>
+
+       並不會加快數據交给應用層，只是盡快將緊急數據發出，加快緊急數據從内核缓冲放區到接收缓冲區中。
+
+     - 有效數據部份(Data): &ensp; 非必需字段，比如在建立和關閉TCP連接的階段，雙方雙方交換的報文段只包含TCP首部。
+
+     - 選項(options): &ensp; 這是可選字段，省略。
+
 
 
 
