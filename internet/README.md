@@ -169,7 +169,21 @@
 
    ![image](tcp3.png)
 
-### 內核準備收到要連接的指令開始創建第一個包，會阻塞必須由ip網路層決定由哪個網卡哪個端口傳出去，經果多次交互，達成連接開闢緩存資源區。
+#### 內核準備收到要連接的指令開始創建第一個包，會阻塞必須由ip網路層決定由哪個網卡哪個端口傳出去，經果多次交互，達成連接開闢緩存資源區。
+
+#### 網路層ip找到網關Gateway想發送數據時，會阻塞原因是必須知道MAC，知道後就能發出第一個包建立連接，
+
+#### 反之則會寄出ARP(Address Resolution Protocol)，請求mac地址。
+
+  - [👉跳到說明(arp)](#arp)
+
+### 簡單介紹怎麼把資料傳到目的地:
+
+網路層目標ip不會變動，ip會經由各個路由轉到目的，但怎麼知道他是不是就是目的地。<br/>
+
+答案是，交由資料連結層osi（Media Access Control)，他每經過一個路由他就會更新成下一個路由的MAC，
+
+
 
    ![image](tcp-netstat.png)
 
@@ -200,6 +214,22 @@
    斷開連接
 
    ![image](tcp-over.png)
+   
+
+   <p id = arp> ARP</p>
+
+   查看路由表:
+
+   ![image](route.png)
+
+
+   ![image](arp-1.png)
+
+   ![image](arp2.png)
+
+   ![image](arp3.png)
+
+
 
 
  ## SOCKET
