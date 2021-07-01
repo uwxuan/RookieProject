@@ -173,6 +173,8 @@
 
    ![image](tcp-netstat.png)
 
+    TCP達成連接必須的三次互動:
+
    ![image](333.png)
 
    ![image](tcp3-1.png)
