@@ -152,7 +152,9 @@
 
    - QUIC協議: &ensp; google2012基於UTP的傳輸協定。吸取了TCP的精華，和UTP的優點推出了http/3.0。
 
- ## HTTP TCP Actual (實做)
+ ***
+
+ ## TCP practice (實做)
 
      用tcpdump監控80端口。
 
@@ -169,8 +171,25 @@
    ![image](333.png)
 
    ![image](tcp3-1.png)
+
+ ***
+
+## HTTP practice (實作)
    
+     用tcpdump監控80端口。
+
+   ![image](tcp1.png)
+
+    用curl連接google
+
+   ![image](http1.png)
+
+   ![image](http2.png)
     
+   ![image](http2-1.png)
+
+   斷開連接
+
 
  ## SOCKET
  
