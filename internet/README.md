@@ -166,6 +166,12 @@
 
    ![image](tcp3.png)
 
+   ![image](333.png)
+
+   ![image](tcp3-1.png)
+   
+    
+
  ## SOCKET
  
  > socket就是一個api提供一個通訊的端點。
