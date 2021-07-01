@@ -89,15 +89,20 @@
 
       - 序號(Sequence Number): &ensp; 將失序的數據從新排列，它位於TCP設置為數據部份的第一個字節的編號。<br/>
 
-      - 確認序號(Acknowledgment Number): &ensp; 接收方確認收到後所回覆的，用於核對接收的數據，下一次數據從那開始發。if &ensp; (ACK &ensp; = &ensp; 1)&ensp; return &ensp; ACK+1;
+      - 確認序號(Acknowledgment Number): &ensp; 接收方確認收到後所回覆的，用於核對接收的數據，下一次數據從那開始發。&ensp;if &ensp; (ACK &ensp; = &ensp; 1)&ensp; return &ensp; ACK+1;
      
       - 控制位(Control Bits): 
 
          - URG (Urgent Bit): &ensp; 值為1時，緊急指針生效。
+
          - ACK (Acknowledrment Bit): &ensp; 值為1時，確認序號生效。
+
          - PSH (Push Bit): &ensp; 接收方盡快把報文段交給應用層。
+
          - RST (Reset Bit): &ensp; 發送端遇到問題，想要重建連接
+
          - SYN (SynchronizerBit): &ensp; 同步序號，用于發起一个連接。
+
          - FIN (Finish Bit): &ensp; 發送端請求斷開連接。
 
 
