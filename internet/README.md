@@ -222,10 +222,15 @@
 
    ![image](route.png)
 
+    監控arp:
 
    ![image](arp-1.png)
 
+    刪除ip後馬上連接arp
+
    ![image](arp2.png)
+
+   請求地址:
 
    ![image](arp3.png)
 
