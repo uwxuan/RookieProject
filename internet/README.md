@@ -152,15 +152,15 @@
 
  ## HTTP TCP Actual (實做)
 
-    1. 用tcpdump監控80端口。
+    用tcpdump監控80端口。
 
    ![image](tcp1.png)
 
-    2. 用netCat連接google
+    用netCat連接google
 
    ![image](tcp2.png)
    
-    2. 建立連接: <br/>
+    建立連接: <br/>
 
    ![image](tcp3.png)
 
