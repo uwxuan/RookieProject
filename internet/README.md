@@ -89,7 +89,7 @@
 
       - 序號(Sequence Number): &ensp; 將失序的數據從新排列，它位於TCP設置為數據部份的第一個字節的編號。<br/>
 
-      - 確認序號(Acknowledgment Number): &ensp; 接收方確認收到後所回覆的，用於核對接收的數據，下一次數據從那開始發。&ensp;if &ensp; (ACK &ensp; = &ensp; 1)&ensp; return &ensp; ACK+1;
+      - 確認序號(Acknowledgment Number): &ensp; 接收方確認收到後所回覆的，用於核對接收的數據，下一次數據從那開始發。ack=1回傳ack+1。
      
       - 控制位(Control Bits): 
 
