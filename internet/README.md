@@ -199,6 +199,8 @@
 
    斷開連接
 
+   ![image](tcp-over.png)
+
 
  ## SOCKET
  
