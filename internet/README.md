@@ -92,6 +92,8 @@
       - 確認序號(Acknowledgment Number): &ensp; 接收方確認收到後所回覆的，用於核對接收的數據，下一次數據從那開始發。ack=1回傳ack+1。
      
       - 控制位(Control Bits): 
+      
+      <p color = red>
 
          - URG (Urgent Bit): &ensp; 值為1時，緊急指針生效。
 
@@ -104,6 +106,8 @@
          - SYN (SynchronizerBit): &ensp; 同步序號，用于發起一个連接。
 
          - FIN (Finish Bit): &ensp; 發送端請求斷開連接。
+
+         </p>
 
      - 窗口大小(Window): &ensp; 控制流量，起始於確認序號指明的值，值是接收端期望接收的字節。單位為字節，所以數組範圍（0~65565)。
 
