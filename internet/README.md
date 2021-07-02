@@ -239,4 +239,4 @@
 
  ## SOCKET
  
- > socket就是一個api提供一個通訊的端點。
+ > Socket是對TCP/IP的封裝及應用，其本身不是協議，而是一個調用接口(API)。

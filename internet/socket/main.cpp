@@ -1,5 +1,4 @@
-#pragma ones
+#include <iostream>
+#include <string>
 
-class CTcpListeneer {
-
-}
+using namespace std;
