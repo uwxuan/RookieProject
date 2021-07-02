@@ -1,0 +1,5 @@
+#pragma ones
+
+class CTcpListeneer {
+
+}
