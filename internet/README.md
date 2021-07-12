@@ -6,8 +6,8 @@
 
 <br/>
 
- ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/1.internet.png)
- ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/2.internet.png)
+ ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/image/1.internet.png)
+ ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/image/2.internet.png)
   - [👉跳到說明(Description)](#Description)
 
 # FIRST OF ALL
@@ -32,7 +32,7 @@
 
  #### OSI (Open System Interconnection Model)
 
- ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/osi.png)
+ ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/image/osi.png)
 
 <br/>
 
