@@ -241,4 +241,5 @@
  
  > Socket是對TCP/IP的封裝及應用，其本身不是協議，而是一個調用接口(API)。
   
+  btw i use arch linux
   ![link](https://github.com/uwxuan/rookie-project/blob/main/internet/socket/main.cpp)
