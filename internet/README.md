@@ -167,7 +167,7 @@
     建立連接: 
 
 
-   ![image](/internetimage/tcp3.png)
+   ![image](/internet/image/tcp3.png)
 
 #### 內核準備收到要連接的指令開始創建第一個包，會阻塞必須由ip網路層決定由哪個網卡哪個端口傳出去，經果多次交互，達成連接開闢緩存資源區。
 
