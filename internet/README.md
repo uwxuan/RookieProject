@@ -40,7 +40,7 @@
  > ip is also based on the network layer as a black box design.
  > So it is also reasonable as a layer.
 
- ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/osi2.png)
+ ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/image/osi2.png)
 
  <br>
 
@@ -76,11 +76,11 @@
 
     > __數據報(IP Datagram)__: &ensp; 為封包網絡中最小的單位。     
 
-    ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/osi3.png)
+    ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/image/osi3.png)
 
     __報文段(segment)__ 的結構: 
 
-    ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/tcp-construct.png)
+    ![image](https://github.com/uwxuan/rookie-project/blob/main/internet/image/tcp-construct.png)
      <br/>
 
     ### TCP首部結構:
@@ -158,16 +158,16 @@
 
      用tcpdump監控80端口。
 
-   ![image](tcp1.png)
+   ![image](/image/tcp1.png)
 
     用netCat連接google
 
-   ![image](tcp2.png)
+   ![image](/image/tcp2.png)
    
     建立連接: 
 
 
-   ![image](tcp3.png)
+   ![image](image/tcp3.png)
 
 #### 內核準備收到要連接的指令開始創建第一個包，會阻塞必須由ip網路層決定由哪個網卡哪個端口傳出去，經果多次交互，達成連接開闢緩存資源區。
 
@@ -185,13 +185,13 @@
 
 
 
-   ![image](tcp-netstat.png)
+   ![image](/image/tcp-netstat.png)
 
     TCP達成連接必須的三次互動:
 
-   ![image](333.png)
+   ![image](/image/333.png)
 
-   ![image](tcp3-1.png)
+   ![image](/image/tcp3-1.png)
 
  ***
 
@@ -199,40 +199,40 @@
    
      用tcpdump監控80端口。
 
-   ![image](tcp1.png)
+   ![image](/image/tcp1.png)
 
     用curl連接google
 
-   ![image](http1.png)
+   ![image](/image/http1.png)
 
    建立連接
 
-   ![image](http2.png)
+   ![image](/image/http2.png)
     
-   ![image](http2-1.png)
+   ![image](image/http2-1.png)
 
    斷開連接
 
-   ![image](tcp-over.png)
+   ![image](/image/tcp-over.png)
    
 
    <p id = arp> ARP</p>
 
    查看路由表:
 
-   ![image](route.png)
+   ![image](/image/route.png)
 
     監控arp:
 
-   ![image](arp-1.png)
+   ![image](/image/arp-1.png)
 
     刪除ip後馬上連接arp
 
-   ![image](arp2.png)
+   ![image](/image/arp2.png)
 
    請求地址:
 
-   ![image](arp3.png)
+   ![image](/image/arp3.png)
 
 
 
