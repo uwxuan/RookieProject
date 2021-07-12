@@ -199,15 +199,15 @@
    
      用tcpdump監控80端口。
 
-   ![image](/image/tcp1.png)
+   ![image](internet/image/tcp1.png)
 
     用curl連接google
 
-   ![image](/image/http1.png)
+   ![image](internet/image/http1.png)
 
    建立連接
 
-   ![image](/image/http2.png)
+   ![image](image/http2.png)
     
    ![image](image/http2-1.png)
 
