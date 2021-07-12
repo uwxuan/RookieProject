@@ -158,16 +158,16 @@
 
      用tcpdump監控80端口。
 
-   ![image](/image/tcp1.png)
+   ![image](/internet/image/tcp1.png)
 
     用netCat連接google
 
-   ![image](/image/tcp2.png)
+   ![image](/internet/image/tcp2.png)
    
     建立連接: 
 
 
-   ![image](image/tcp3.png)
+   ![image](/internetimage/tcp3.png)
 
 #### 內核準備收到要連接的指令開始創建第一個包，會阻塞必須由ip網路層決定由哪個網卡哪個端口傳出去，經果多次交互，達成連接開闢緩存資源區。
 
@@ -185,13 +185,13 @@
 
 
 
-   ![image](/image/tcp-netstat.png)
+   ![image](/internet/image/tcp-netstat.png)
 
     TCP達成連接必須的三次互動:
 
-   ![image](/image/333.png)
+   ![image](/internet/image/333.png)
 
-   ![image](/image/tcp3-1.png)
+   ![image](/internet/image/tcp3-1.png)
 
  ***
 
@@ -207,32 +207,32 @@
 
    建立連接
 
-   ![image](image/http2.png)
+   ![image](/internet/image/http2.png)
     
-   ![image](image/http2-1.png)
+   ![image](/internet/image/http2-1.png)
 
    斷開連接
 
-   ![image](/image/tcp-over.png)
+   ![image](/internet/image/tcp-over.png)
    
 
    <p id = arp> ARP</p>
 
    查看路由表:
 
-   ![image](/image/route.png)
+   ![image](/internet/image/route.png)
 
     監控arp:
 
-   ![image](/image/arp-1.png)
+   ![image](/internet/image/arp-1.png)
 
     刪除ip後馬上連接arp
 
-   ![image](/image/arp2.png)
+   ![image](/internet/image/arp2.png)
 
    請求地址:
 
-   ![image](/image/arp3.png)
+   ![image](/internet/image/arp3.png)
 
 
 
